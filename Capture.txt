@@ -39,7 +39,7 @@
                         <h1 class="font-montserrat text-4xl font-extrabold uppercase leading-tight">Anthony's<br>Fast Start Blueprint</h1>
                         <p class="mt-4 text-blue-100 text-lg">Enter your email below to get instant access to the simple system for earning your first payments online.</p>
                         
-                        <!-- LeadsLeap Form Starts Here - UPDATED -->
+                        <!-- LeadsLeap Form Starts Here -->
                         <form method="post" action="https://www.sendsteed.com/subscribe/" class="mt-8">
                             <div class="space-y-4">
                                 <!-- Name Input Field -->
@@ -71,5 +71,20 @@
         </div>
     </div>
 
+    <!-- 
+    ============================================================
+    PASTE YOUR INVISIBLE COUNTER CODE (FROM GOOGLE ANALYTICS, ETC.) HERE
+    ============================================================
+    -->
+
 </body>
 </html>
+```
+
+Now, simply follow the step-by-step guide you already have open on the right side of your screen. It walks you through how to save this code and upload it to GitHub.
+
+To get your counter working, just add this one task to **Step 1** of that guide:
+
+* Before you save the `index.html` file, go to a service like Google Analytics or StatCounter, get your invisible tracking code, and paste it into the designated spot at the very bottom of the file.
+
+Once you do that and follow the rest of the steps, your page will be live online, and it will be tracking every visit
