@@ -23,49 +23,49 @@
 </head>
 <body class="bg-gray-100">
 
-    <div class="hero-background">
-        <div class="container mx-auto px-4 py-16 sm:py-24">
-            <div class="max-w-4xl mx-auto">
-                <div class="bg-white rounded-xl shadow-2xl overflow-hidden md:flex">
+    <!-- This parent div now fills the entire screen and centers its content -->
+    <div class="hero-background min-h-screen flex items-center justify-center p-4">
+        <!-- This div ensures the content doesn't get too wide on large screens -->
+        <div class="max-w-4xl w-full">
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden md:flex">
+                
+                <!-- Left Side: Image -->
+                <div class="md:w-1/2">
+                    <img class="h-64 w-full object-cover md:h-full" src="https://i.imgur.com/Uz7PO0W.png" alt="A photo of Anthony Price">
+                </div>
+
+                <!-- Right Side: Content and Form -->
+                <div class="md:w-1/2 p-8 md:p-12 bg-blue-700 text-white flex flex-col justify-center">
                     
-                    <!-- Left Side: Image -->
-                    <div class="md:w-1/2">
-                        <img class="h-64 w-full object-cover md:h-full" src="https://i.imgur.com/Uz7PO0W.png" alt="A photo of Anthony Price">
-                    </div>
-
-                    <!-- Right Side: Content and Form -->
-                    <div class="md:w-1/2 p-8 md:p-12 bg-blue-700 text-white flex flex-col justify-center">
-                        
-                        <h1 class="font-montserrat text-4xl font-extrabold uppercase leading-tight">Anthony's<br>Fast Start Blueprint</h1>
-                        <p class="mt-4 text-blue-100 text-lg">Enter your email below to get instant access to the simple system for earning your first payments online.</p>
-                        
-                        <!-- LeadsLeap Form Starts Here - UPDATED -->
-                        <form method="post" action="https://www.sendsteed.com/subscribe/" class="mt-8">
-                            <div class="space-y-4">
-                                <!-- Name Input Field -->
-                                <div>
-                                    <input name="n110043" required="" type="text" placeholder="First Name" class="w-full px-4 py-3 rounded-lg bg-blue-800 border border-blue-600 text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-white">
-                                </div>
-                                <!-- Email Input Field -->
-                                <div>
-                                    <input name="e110043" required="" type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded-lg bg-blue-800 border border-blue-600 text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-white">
-                                </div>
+                    <h1 class="font-montserrat text-4xl font-extrabold uppercase leading-tight">Anthony's<br>Fast Start Blueprint</h1>
+                    <p class="mt-4 text-blue-100 text-lg">Enter your email below to get instant access to the simple system for earning your first payments online.</p>
+                    
+                    <!-- LeadsLeap Form Starts Here - UPDATED -->
+                    <form method="post" action="https://www.sendsteed.com/subscribe/" class="mt-8">
+                        <div class="space-y-4">
+                            <!-- Name Input Field -->
+                            <div>
+                                <input name="n110043" required="" type="text" placeholder="First Name" class="w-full px-4 py-3 rounded-lg bg-blue-800 border border-blue-600 text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-white">
                             </div>
+                            <!-- Email Input Field -->
+                            <div>
+                                <input name="e110043" required="" type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded-lg bg-blue-800 border border-blue-600 text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-white">
+                            </div>
+                        </div>
 
-                            <input type="hidden" name="lllid" value="110043">
-                            <input type="hidden" name="lluid" value="twentydollarsystem">
-                            <input type="hidden" name="redirect" value="">
-                            <input type="hidden" name="source" value="">
-                            
-                            <button type="submit" class="w-full mt-6 bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-4 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-200">
-                                GET INSTANT ACCESS!
-                            </button>
-                        </form>
-                        <!-- LeadsLeap Form Ends Here -->
+                        <input type="hidden" name="lllid" value="110043">
+                        <input type="hidden" name="lluid" value="twentydollarsystem">
+                        <input type="hidden" name="redirect" value="">
+                        <input type="hidden" name="source" value="">
                         
-                        <p class="mt-8 text-sm italic text-blue-200 text-center">"A drop of water cuts through rock, not because of its power, but because of its persistence."</p>
+                        <button type="submit" class="w-full mt-6 bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-4 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-200">
+                            GET INSTANT ACCESS!
+                        </button>
+                    </form>
+                    <!-- LeadsLeap Form Ends Here -->
+                    
+                    <p class="mt-8 text-sm italic text-blue-200 text-center">"A drop of water cuts through rock, not because of its power, but because of its persistence."</p>
 
-                    </div>
                 </div>
             </div>
         </div>
