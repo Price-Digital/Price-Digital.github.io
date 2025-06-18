@@ -19,6 +19,19 @@
             background-size: cover;
             background-position: center;
         }
+        /* Custom list style */
+        .checklist li {
+            padding-left: 2rem;
+            position: relative;
+        }
+        .checklist li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #34d399; /* Green-400 */
+            font-weight: bold;
+        }
     </style>
 
     <!-- Google tag (gtag.js) - Your new visitor counter -->
@@ -48,9 +61,16 @@
                 <!-- Right Side: Content and Form -->
                 <div class="md:w-1/2 p-8 md:p-12 bg-blue-700 text-white flex flex-col justify-center">
                     
-                    <h1 class="font-montserrat text-4xl font-extrabold uppercase leading-tight">Anthony's<br>Fast Start Blueprint</h1>
-                    <p class="mt-4 text-blue-100 text-lg">Enter your email below to get instant access to the simple system for earning your first payments online.</p>
+                    <h1 class="font-montserrat text-3xl font-extrabold uppercase leading-tight">Discover the Blueprint to Your First $20 Payments</h1>
+                    <p class="mt-2 text-blue-200 text-lg">Get my 100% free, step-by-step blueprint that reveals the simple system I use to get results online.</p>
                     
+                    <!-- NEW: Benefit-driven bullet points -->
+                    <ul class="checklist mt-6 space-y-2 text-blue-100">
+                        <li>The exact, beginner-friendly method I used to start fast.</li>
+                        <li>How to get started with no tech skills or previous experience.</li>
+                        <li>A simple process you can follow in your spare time.</li>
+                    </ul>
+
                     <!-- LeadsLeap Form Starts Here - UPDATED -->
                     <form method="post" action="https://www.sendsteed.com/subscribe/" class="mt-8">
                         <div class="space-y-4">
@@ -70,7 +90,7 @@
                         <input type="hidden" name="source" value="">
                         
                         <button type="submit" class="w-full mt-6 bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-4 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-200">
-                            GET INSTANT ACCESS!
+                            GET MY FREE BLUEPRINT!
                         </button>
                     </form>
                     <!-- LeadsLeap Form Ends Here -->
